@@ -2,7 +2,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 header, section, footer, aside, nav, article, figure { display: block; } /* HTML5 tags */
 
-.hidden { display: none; }
 body { font: normal 16px/20px 'Helvetica Neue', Arial, sans-serif; }
 
 header {
@@ -35,6 +34,8 @@ h2 {
   line-height: 60px;
   text-shadow: 0 -1px rgba(0, 0, 0, .3);
 }
+
+h2 span { display: none; }
 
 h3 {
   background: url("../images/pointer_bottom.png") 50% bottom no-repeat;
