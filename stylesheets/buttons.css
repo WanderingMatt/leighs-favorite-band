@@ -1,0 +1,50 @@
+/*
+FILENAME: buttons.css
+DESCRIPTION: This stylesheet serves unique declarations for Onehub buttons
+*/
+
+.buttons { width: 100%; }
+
+.buttons button, .buttons .button {
+  background: #fff url("../images/bg_button.png") bottom center repeat-x;
+  border: 1px solid #888;
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #828282;
+  cursor: pointer;
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255, 255, 255, .75);
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.buttons .button { padding: 4px 10px; }
+
+.buttons img {
+  margin: -1px 0 0 5px;
+  vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+}
+
+/* =DEFAULTS */
+
+.buttons button:hover, .buttons .button:hover {
+  background-color: #f2f2f2;
+  border-color: #999;
+}
+
+.buttons button:active, .buttons .button:active {
+  background-color: #6299c5;
+  border-color: #5382a8;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0, 0, 0, .4);
+}
