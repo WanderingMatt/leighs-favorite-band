@@ -1,14 +1,127 @@
 <!-- Created lovingly for my good friend Leigh Caplan (@texel) as an April Fool's joke. -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <title>Leigh's Favorite Band is Creed</title>
+  <title>Leigh's Favorite Band is Hoobastank</title>
   <!-- In the whole wide world! -->
 
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <link rel="stylesheet" href="stylesheets/styles.css" type="text/css" />
-  <link rel="stylesheet" href="stylesheets/buttons.css" type="text/css" />
+  <style>
+ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+  header, section, footer, aside, nav, article, figure { display: block; } /* HTML5 tags */
+  body { background: #fff; font: normal 16px/20px 'Helvetica Neue', Arial, sans-serif; }
+
+  header {
+    background: rgba(240, 240, 240, .9) url("leigh.png") 0 bottom no-repeat;
+    -moz-box-shadow: 0 0 5px #000;
+    -webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .4);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 300px;
+    z-index: 1;
+  }
+
+  header:hover { background-position: -350px bottom; }
+
+  .interior {
+    height: 100%;
+    padding: 20px;
+  }
+
+  h1 { display: none; }
+
+  h2 {
+    background: url("pointer_right.png") right 54% no-repeat;
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: -.025em;
+    line-height: 60px;
+    text-shadow: 0 -1px rgba(0, 0, 0, .2);
+  }
+
+  h2 span { display: none; }
+
+  h3 {
+    background: url("pointer_bottom.png") 50% bottom no-repeat;
+    color: rgba(0, 0, 0, .8);
+    font-size: 30px;
+    letter-spacing: -.025em;
+    line-height: 40px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    text-shadow: 0 1px rgba(255, 255, 255, .8);
+  }
+
+  .tell_leigh {
+    bottom: 290px;
+    position: absolute;
+    width: 260px;
+  }
+
+  .buttons {
+    background: rgba(0, 0, 0, .1);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 3px;
+    width: 200px;
+  }
+
+  .buttons button, .buttons .button {
+    background: #fff url("bg_button.png") bottom center repeat-x;
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #444;
+    cursor: pointer;
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255, 255, 255, .75);
+  }
+
+  .buttons .button { padding: 6px 10px; }
+  .buttons button:hover, .buttons .button:hover { background-color: #f2f2f2; }
+
+  .buttons button:active, .buttons .button:active {
+    background-color: #6299c5;
+    border-color: #5382a8;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, .4);
+  }
+
+  section {
+    background: #000;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+
+  article {
+    height: 100%;
+    width: 100%;
+  }
+
+  article img {
+    display: block;
+    width: 100%;
+  }
+  </style>
 </head>
 <body>
   <header>
@@ -18,21 +131,21 @@
         favorite band is
       </h2>
 
-      <h1>Creed</h1>
+      <h1>Hoobastank</h1>
 
       <h3>Tell him what you think about that!</h3>
-      <!-- Unless you actually like Creed, in which case, please don't encourage him. :\ -->
+      <!-- Unless you actually like Hoobastank, in which case, please don't encourage him. :\ -->
 
       <div class="tell_leigh">
         <div class="buttons">
-          <a href="http://twitter.com/home?source=leighsfavoriteband&amp;status=%40texel%20I'm%20worried%20about%20you.%20Your%20new%20favorite%20band%20is%20unacceptable!%20http%3A%2F%2Fleighsfavoriteband.com" class="button">Tell me about it</a>
+          <a href="http://twitter.com/home?source=leighsfavoriteband&amp;status=%40texel%20Another%20notch%20in%20the%20long%20belt%20of%20quality%20choices%20that%20you%20wear!%20http%3A%2F%2Fleighsfavoriteband.com" class="button">Tell me about it</a>
         </div>
       </div>
     </div>
   </header>
   <section>
     <article>
-      <img src="images/creed.jpg" alt="Creed" />
+      <img src="hoobastank.jpg" alt="Hoobastank" />
     </article>
   </section>
 </body>
