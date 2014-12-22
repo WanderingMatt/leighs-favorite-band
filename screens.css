@@ -4,7 +4,7 @@ header, section, footer, aside, nav, article, figure { display: block; } /* HTML
 body { background: #fff; font: normal 16px/20px 'Helvetica Neue', Arial, sans-serif; }
 
 header {
-  background: rgba(240, 240, 240, .75) url("leigh.png") 0 bottom no-repeat;
+  background: rgba(240, 240, 240, .75) url("leigh-caplan.png") 0 bottom no-repeat;
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
   box-shadow: 0 0 5px rgba(0, 0, 0, .4);
